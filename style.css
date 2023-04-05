@@ -51,7 +51,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #2E384D;
+  background: linear-gradient(103.35deg, #3D64F0 -3.34%, #C730ED 146.9%);
   padding: 25px 0px;
   padding-right: 100px;
 }
