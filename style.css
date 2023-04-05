@@ -10,12 +10,16 @@
   list-style: none;
   border-color: transparent;
   margin: 0px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 .navbar {
   display: flex;
   background-color: #2E384D;
   width: 100%;
   padding: 25px 100px;
+  justify-content: space-between;
+  width: auto;
 }
 .nav-items {
   margin-top: 10px;
@@ -23,7 +27,7 @@
 .nav-menu {
   display: flex;
   gap: 1rem;
-  color: white;
+  margin-top: 0.4rem;
 }
 .contact-btn{
   background-color: #D59600;
@@ -31,8 +35,13 @@
   padding: 7px 20px;
   cursor: pointer;
 }
+.right-nav{
+  display: flex;
+  gap: 70px;
+}
 .zero{
   color: white;
+  font-weight: 100;
 }
 .ground {
   color: #D59600;
