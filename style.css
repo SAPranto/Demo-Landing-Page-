@@ -1,0 +1,42 @@
+:root {
+  --color-1: #2E384D;
+  --color-2: #65809F;
+  --color-3: #6D9500;
+  --color-4: #8798AD;
+  --color-5: #D59600;
+}
+*{
+  text-decoration: none;
+  list-style: none;
+  border-color: transparent;
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  background-color: #2E384D;
+  width: 100%;
+  padding: 25px 100px;
+}
+.nav-items {
+  margin-top: 10px;
+}
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+.contact-btn{
+  background-color: #D59600;
+  color: white;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+.zero{
+  color: white;
+}
+.ground {
+  color: #D59600;
+}
+.right-nav {
+  display: flex;
+}
