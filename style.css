@@ -12,13 +12,14 @@
   margin: 0px;
   color: white;
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 .navbar {
   display: flex;
   background-color: #2E384D;
   width: 100%;
   padding: 25px 100px;
-  justify-content: space-between;
+  justify-content: space-around;
   width: auto;
 }
 .nav-items {
@@ -46,6 +47,26 @@
 .ground {
   color: #D59600;
 }
-.right-nav {
+.banner {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2E384D;
+  padding: 25px 0px;
+  padding-right: 100px;
+}
+.img1 {
+  max-width: 40rem;
+  max-height: 40rem;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 90px;
+  color: #FFFFFF;
+}
+h3 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 90px;
+  color: #FFD28E;
 }
