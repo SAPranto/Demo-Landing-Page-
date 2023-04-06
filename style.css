@@ -204,6 +204,10 @@ p {
   max-width: 5rem;
   max-height: 5rem;
 }
+.gallery-container {
+    text-align: center;
+    padding-top: 100px;
+}
 .gallery {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -247,7 +251,6 @@ p {
   opacity: 0;
   transition: all 1s ease;
 }
-
 .image-container:hover::after {
   content: '';
   position: absolute;
@@ -255,15 +258,71 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 24rem;
-  height: 18rem;
+  height: 18.4rem;
   border: 1px solid #fff;
   z-index: 2;
   opacity: 1;
   transition: all 1s ease;
 }
-
 .image-container:hover::before,
 .image-container:hover::after {
   opacity: 1;
 }
-
+.newsroom-container {
+  text-align: center;
+  padding: 100px 200px;
+  background: #f8f8ff;
+}
+.newsroom {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+  padding-top: 4rem;
+  justify-content: center;
+}
+.default-card {
+  background: white;
+  width: 22rem;
+  padding-bottom: 14px;
+}
+.card-body {
+  padding: 10px 20px;
+  text-align: left;
+}
+.newsroom img {
+  width: 22rem;
+}
+.newsroom-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #2E384D;
+  max-width: 19rem;
+  padding-top: 10px;
+}
+.newsroom a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 22px;
+  color: #D59600;
+}
+.newsroom p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.1rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+.newsroom-green{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 18px;
+  color: #6D9500;
+}
