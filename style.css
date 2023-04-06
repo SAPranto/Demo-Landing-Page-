@@ -48,23 +48,28 @@
 }
 .banner {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background: linear-gradient(103.35deg, #3d64f0 -3.34%, #c730ed 146.9%);
-  padding-top: 100px;
+  padding: 100px 50px 0px 50px;
+  max-height: 405px;
+}
+.leaf-img {
+  position: relative;
+  right: 650px;
 }
 .img1 {
-  max-width: 40rem;
-  max-height: 40rem;
+  max-width: 40em;
+  max-height: 40em;
 }
 h2 {
   font-size: 2rem;
-  line-height: 5rem;
+  line-height: 4rem;
   color: #ffffff;
 }
 h3 {
   font-weight: 700;
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
   color: #ffd28e;
 }
 .banner-tag {
