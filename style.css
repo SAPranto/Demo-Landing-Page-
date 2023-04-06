@@ -16,6 +16,10 @@
   margin: 0px;
   padding: 0px;
 }
+.logo {
+  max-width: 13rem;
+  margin-top: 5px;
+}
 .navbar {
   display: flex;
   background-color: var(--color-1);
@@ -41,13 +45,6 @@
 .right-nav {
   display: flex;
   gap: 70px;
-}
-.zero {
-  color: white;
-  font-weight: 100;
-}
-.ground {
-  color: var(--color-5);
 }
 .banner {
   display: flex;
@@ -325,4 +322,58 @@ p {
   font-size: 0.8rem;
   line-height: 18px;
   color: #6D9500;
+}
+.footer-container {
+  background-color: var(--color-1);
+  margin: auto;
+  padding: 80px 50px 50px 50px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+}
+.footer-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 30rem;
+  color: #8798AD;
+  padding: 0px;
+}
+.footer-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form {
+  height: 25px;
+  width: 350px;
+  padding: 10px;
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+}
+.subscribe-btn {
+  background-color: var(--color-5);
+  color: white;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-container img {
+  max-width: 13rem;
+  margin-bottom: 25px;
+  margin-top: -20px;
 }
