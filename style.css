@@ -324,7 +324,7 @@ p {
   color: #6D9500;
 }
 .footer-container {
-  background-color: var(--color-1);
+  background-color: #32446a;
   margin: auto;
   padding: 80px 50px 50px 50px;
   display: grid;
@@ -385,4 +385,18 @@ p {
   padding: 10px 12px;
   font-size: 14px;
   cursor: pointer;
+}
+.foot-container{
+  background-color: var(--color-1);
+  height: 80px;
+}
+.foot-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 30px;
 }
