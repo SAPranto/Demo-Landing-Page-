@@ -48,7 +48,7 @@
 }
 .banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background: linear-gradient(103.35deg, #3d64f0 -3.34%, #c730ed 146.9%);
   padding-top: 100px;
 }
@@ -94,7 +94,8 @@ p {
 }
 .about {
   display: flex;
-  padding: 150px 150px 100px 150px;
+  justify-content: space-evenly;
+  padding: 150px 20px 100px 20px;
   background: #f3f7ff;
 }
 .about-right {
@@ -105,17 +106,17 @@ p {
 }
 .about-left {
   margin-top: 5rem;
-  padding-right: 100px;
+  max-width: 600px;
 }
 .card {
   background-color: white;
-  padding: 40px;
-  width: 12rem;
-  height: 12rem;
+  padding: 10px;
+  width: 13rem;
+  height: 13rem;
   text-align: center;
 }
 .card-img {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .card-text {
   font-family: "Roboto";
@@ -135,6 +136,9 @@ p {
 .concern-container {
   text-align: center;
   padding: 100px;
+  overflow: hidden;
+  display: grid;
+  justify-content: space-evenly;
 }
 .concern-title {
   font-weight: 700;
@@ -143,7 +147,7 @@ p {
   color: var(--color-1);
 }
 .limit {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -152,7 +156,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 100px;
+  padding: 100px 0px;
   gap: 100px;
 }
 .concern-head {
@@ -166,11 +170,11 @@ p {
 }
 .border-middle {
   border-right: 1px solid #e2e8ff;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .concern-img {
-  height: 25rem;
-  max-width: 35rem;
+  height: 22rem;
+  max-width: 30rem;
 }
 .bg {
   background: #f8f8ff;
