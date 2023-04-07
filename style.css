@@ -161,6 +161,29 @@ p {
   margin: 0 auto;
   text-align: center;
 }
+.arrow-left {
+  position: relative;
+  top: -103px;
+  right: 139px;
+}
+.arrow-right{
+  rotate: 90deg;
+  top: -104px;
+  position: relative;
+  left: 70px;
+}
+.arrow-rightdown {
+  rotate: 180deg;
+  top: 104px;
+  position: relative;
+  left: 70px;
+}
+.arrow-leftdown {
+  rotate: 270deg;
+  top: 104px;
+  position: relative;
+  right: 140px;
+}
 .concern {
   display: flex;
   justify-content: center;
@@ -196,6 +219,16 @@ p {
   height: 10rem;
   text-align: center;
   box-shadow: 0px 0px 50px rgba(104, 136, 250, 0.1);
+}
+.award-arrow {
+  position: relative;
+  top: -100px;
+  right: 172px;
+}
+.award2-arrow {
+  position: relative;
+  top: -100px;
+  right: 168px;
 }
 .award-card-text {
   font-family: "Roboto";
