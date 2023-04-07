@@ -54,26 +54,31 @@
   max-height: 405px;
 }
 .leaf-img {
-  position: relative;
-  right: 650px;
+  position: absolute;
+  left: 155px;
+  top: 505px;
+  max-width: 30rem;
 }
 .img1 {
-  max-width: 40em;
-  max-height: 40em;
+  max-width: 40rem;
+  max-height: 35rem;
 }
 h2 {
   font-size: 2rem;
-  line-height: 4rem;
+  line-height: 2rem;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 h3 {
   font-weight: 700;
   font-size: 2.8rem;
-  line-height: 3.2rem;
+  line-height: 3.6rem;
   color: #ffd28e;
 }
 .banner-tag {
+  width: 100%;
   margin-top: 40px;
+  margin-left: 400px;
 }
 .green {
   font-family: "Roboto";
@@ -418,4 +423,56 @@ p {
   background-color: rgb(0, 0, 0, 0.5);
   padding: 6px;
   cursor: pointer;
+}
+.circle-img {
+  position : relative;
+  left: 270px;
+  top: -460px;
+}
+.group1-img {
+  position: relative;
+  top: -485px;
+  left: 60px;
+}
+.path362-img{
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  max-width: 3rem;
+}
+.group3-img{
+  position: absolute;
+  right: 100px;
+  top: 500px;
+  max-width: 3rem;
+}
+.path28-img {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.path30-img {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1600px) {
+  .banner-tag {
+    margin-right: 0px;
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .banner-tag {
+    margin-right: 0px;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .banner-tag {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
