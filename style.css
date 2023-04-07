@@ -281,7 +281,11 @@ p {
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
-  opacity: 0.6;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.image-container:hover .caption {
+  opacity: 1;
 }
 .image-container:hover::before {
   content: '';
@@ -294,23 +298,6 @@ p {
   z-index: 1;
   opacity: 0;
   transition: all 1s ease;
-}
-.image-container:hover::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 24rem;
-  height: 18.4rem;
-  border: 1px solid #fff;
-  z-index: 2;
-  opacity: 1;
-  transition: all 1s ease;
-}
-.image-container:hover::before,
-.image-container:hover::after {
-  opacity: 1;
 }
 .newsroom-container {
   text-align: center;
