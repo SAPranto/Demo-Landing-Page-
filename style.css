@@ -73,7 +73,10 @@
   display: flex;
   gap: 70px;
 }
-
+/** Mobile Nav**/
+.mob-nav{
+  display: none;
+}
 /** Banner **/
 .banner {
   display: flex;
@@ -640,6 +643,88 @@ p {
     .border-middle{
       border: 0px;
       padding-right: 0px;
+    }
+    .navbar{
+      display: none;
+    }
+    .leaf-img {
+      display: none;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
+    h3{
+      font-size: 1.6rem;
+    }
+    .mob-nav{
+      display: grid;
+      grid-auto-flow: column;
+      background-color: var(--color-1);
+      justify-content: space-evenly;
+      padding: 10px;
+    }
+    .mob-nav img {
+      max-width: 60%;
+      vertical-align: middle;
+    }
+    .hamburger{
+      color: white;
+      font-size: 20px;
+    }
+    .contact-btn {
+      padding: 0px 10px;
+      font-size: 10px;
+    }
+    .hamburger-container{
+      display: grid;
+      grid-auto-flow: column;
+      gap: 20px;
+    }
+    .path28-img {
+      top: 10%;
+    }
+    .path30-img {
+      top: 12%;
+    }
+    .path362-img {
+      top: 8%;
+    }
+    .group1-img {
+      left: 14%;
+      top: -168%;
+    }
+    .img1 {
+      max-width: 300px;
+    }
+    .banner{
+      max-height: 140px;
+      padding: 50px 0px;
+      margin-left: -10px;
+    }
+    .circle-img {
+      top: -160%;
+      left: 40%;
+    }
+    .banner-tag {
+      margin-left: -40px;
+    }
+    .about-left {
+      padding: 0px 20px;
+    }
+    .award-cards {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      justify-content: center;
+      padding: 0px 100px;
+      margin-left: 60px;
+    }
+    .limit {
+      max-width: 70%;
+    }
+    .about-card {
+      padding-right: 0px;
+      display: grid;
+      justify-content: center;
     }
   }
   }
