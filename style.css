@@ -511,6 +511,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 @media only screen and (max-width: 1600px) {
   .banner-tag {
     margin-right: 50px;
@@ -656,6 +657,7 @@ p {
     h3{
       font-size: 1.6rem;
     }
+    /** Mobile Nav Starts**/
     .mob-nav{
       display: grid;
       grid-auto-flow: column;
@@ -671,15 +673,45 @@ p {
       color: white;
       font-size: 20px;
     }
-    .contact-btn {
-      padding: 0px 10px;
-      font-size: 10px;
-    }
-    .hamburger-container{
+    .hamburger-container {
       display: grid;
       grid-auto-flow: column;
       gap: 20px;
     }
+    .contact-btn {
+      padding: 0px 10px;
+      font-size: 10px;
+    }
+    .mob-menu {
+      display: none;
+    }
+    .mob-menu.active {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 60vw;
+      display: grid;
+      gap: 10px;
+      background-color: #0f2045;
+      padding: 10px 40px;
+      text-align: center;
+      border: 1px solid;
+      padding-top: 30px;
+      width: 22vw;
+      z-index: 100;
+      font-size: 14px;
+    }
+    .x-icon {
+      position: absolute;
+      right: 15px;
+      top: 10px;
+      font-size: 16px;
+      color: red;
+      cursor: pointer;
+      border: 1px solid white;
+      padding: 4px;
+    }
+    /** Mobile Nav Ends**/
     .path28-img {
       top: 10%;
     }
@@ -718,9 +750,6 @@ p {
       padding: 0px 100px;
       margin-left: 60px;
     }
-    .limit {
-      max-width: 70%;
-    }
     .about-card {
       padding-right: 0px;
       display: grid;
@@ -744,6 +773,9 @@ p {
     }
     .award-cards {
       padding-top: 50px;
+    }
+    .arrow-icon {
+      right: 40px;
     }
   }
   @media only screen and (max-width: 420px) {
