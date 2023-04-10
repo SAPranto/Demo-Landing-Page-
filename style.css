@@ -726,5 +726,45 @@ p {
       display: grid;
       justify-content: center;
     }
+    .concern-container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .subscribe-form input::placeholder {
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    h3 {
+      font-size: 1.4rem;
+      line-height: 18px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      line-height: 15px;
+    }
+    .img1 {
+      max-width: 200px;
+    }
+    .banner {
+      max-height: 78px;
+    }
+    .circle-img {
+      top: -200%;
+      left: 32%;
+      max-width: 35%;
+    }
+    .group1-img {
+      top: -215%;
+      left: 12%;
+      max-width: 25%;
+    }
+    .path362-img {
+      max-width: 5%;
+      right: 10%;
+    }
+    .path30-img {
+      top: 11%;
+    }
   }
   }
