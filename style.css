@@ -7,22 +7,27 @@
 }
 @media only screen and (max-width: 768px) {
   html {
-  
-  }
+    font-size: 65%;
+    }
+}
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 70%;
+    }
 }
 @media only screen and (min-width: 992px) {
   html {
-  
+  font-size: 80%;
   }
 }
 @media only screen and (min-width: 1200px) {
   html {
-  
+  font-size: 90%;
   }
 }
 @media only screen and (min-width: 1600px) {
   html {
-    
+    font-size: 100%;
   }
 }
 
@@ -47,7 +52,7 @@
   background-color: var(--color-1);
   width: 100%;
   padding: 25px 00px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: auto;
 }
 .nav-items {
@@ -68,6 +73,7 @@
   display: flex;
   gap: 70px;
 }
+
 /** Banner **/
 .banner {
   display: flex;
@@ -83,8 +89,7 @@
   max-width: 30rem;
 }
 .img1 {
-  max-width: 40rem;
-  max-height: 35rem;
+  max-width: 640px;
 }
 h2 {
   font-size: 2rem;
@@ -105,7 +110,7 @@ h3 {
 }
 /** About **/
 .green {
-  font-family: "Roboto";
+  font-family: "poppins";
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -119,9 +124,9 @@ h5 {
   padding: 0.5rem 0rem;
 }
 p {
-  font-family: "Roboto";
+  font-family: "poppins";
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   color: var(--color-2);
   padding: 2rem 0rem;
@@ -145,15 +150,15 @@ p {
 .card {
   background-color: white;
   padding: 10px;
-  width: 13rem;
-  height: 13rem;
+  width: 208px;
+  height: 208px;
   text-align: center;
 }
 .card-img {
   margin-top: 50px;
 }
 .card-text {
-  font-family: "Roboto";
+  font-family: "poppins";
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 1.8rem;
@@ -217,7 +222,7 @@ p {
   gap: 100px;
 }
 .concern-head {
-  font-family: "Roboto";
+  font-family: "poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -239,8 +244,8 @@ p {
 .award-card {
   background-color: white;
   padding: 40px;
-  width: 12.5rem;
-  height: 10rem;
+  width: 200px;
+  height: 160px;
   text-align: center;
   box-shadow: 0px 0px 50px rgba(104, 136, 250, 0.1);
 }
@@ -255,22 +260,23 @@ p {
   right: 168px;
 }
 .award-card-text {
-  font-family: "Roboto";
+  font-family: "poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 14px;
   line-height: 26px;
   text-align: center;
   color: var(--color-3);
 }
 .award-cards {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   justify-content: center;
   gap: 2rem;
 }
 .award-img {
-  max-width: 5rem;
-  max-height: 5rem;
+  max-width: 80px;
+  max-height: 80px;
 }
 .gallery-container {
     text-align: center;
@@ -348,25 +354,25 @@ p {
   width: 22rem;
 }
 .newsroom-heading {
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   color: #2E384D;
   max-width: 19rem;
   padding-top: 10px;
 }
 .newsroom a {
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 22px;
   color: #D59600;
 }
 .newsroom p {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
   line-height: 1.1rem;
@@ -374,10 +380,10 @@ p {
   margin-bottom: -1rem;
 }
 .newsroom-green{
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 18px;
   color: #6D9500;
 }
@@ -390,7 +396,7 @@ p {
   justify-content: space-evenly;
 }
 .footer-text{
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -401,7 +407,7 @@ p {
   max-width: 300px;
 }
 .footer-heading {
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -415,7 +421,7 @@ p {
 }
 .form {
   height: 25px;
-  width: 350px;
+  width: 20rem;
   padding: 10px;
   background-color: #F2F2F2;
   margin-bottom: 20px;
@@ -450,7 +456,7 @@ p {
   height: 80px;
 }
 .foot-text{
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -492,31 +498,117 @@ p {
 }
 .path28-img {
   position: absolute;
-  top: 15%;
+  top: 16.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .path30-img {
   position: absolute;
-  top: 17%;
+  top: 19%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 @media only screen and (max-width: 1600px) {
   .banner-tag {
-    margin-right: 0px;
+    margin-right: 50px;
     margin-left: 200px;
   }
 }
 @media only screen and (max-width: 1400px) {
   .banner-tag {
-    margin-right: 0px;
+    margin-right: 50px;
     margin-left: 100px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .banner-tag {
-    margin-right: 0px;
-    margin-left: 0px;
+  margin-right: 20px;
+  margin-left: 50px;
   }
-}
+  .img1{
+  max-width: 490px;
+  }
+  .banner{
+  max-height: 310px;
+  }
+  .leaf-img{
+  top: 426px;
+  left: 126px;
+  }
+  .circle-img{
+  top: -380px;
+  max-width: 50%;
+  left: 210px;
+  }
+  .group1-img{
+  top: -385px;
+  left: 40px;
+  max-width: 40%;
+  }
+  .about-card{
+    padding-right: 50px;
+  }
+  .award-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .path28-img {
+    top: 21%;
+    left: 55%;
+    width: 5%;
+  }
+  .path30-img {
+    top: 24%;
+    left: 55%;
+    width: 4%;
+  }
+  @media only screen and (max-width: 992px) {
+    .leaf-img{
+      top: 436px;
+      left: 133px;
+    }
+    .img1 {
+      max-width: 350px;
+    }
+    .banner{
+      max-height: 222px;
+      }
+      .banner-tag{
+        margin-top: 0px;
+      }
+      .leaf-img{
+      top: 348px;
+      left: 40px;
+      }
+      .circle-img{
+      top: -260px;
+      max-width: 40%;
+      left: 140px;
+      }
+      .group1-img{
+      top: -277px;
+      left: 40px;
+      max-width: 30%;
+      }
+      .footer-text{
+        font-size: 1rem;
+        max-width: 180px;
+      }
+      .concern{
+        gap: 40px;
+      }
+      .about{
+        display: grid;
+        gap: 80px;
+        justify-content: center;
+      }
+      .about-left {
+        margin-top: -100px;
+      }
+  }
+  @media only screen and (max-width: 767px) {
+    .banner{
+      
+    }
+  }
+  }
