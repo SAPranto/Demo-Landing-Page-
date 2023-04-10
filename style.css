@@ -239,7 +239,7 @@ p {
   max-width: 30rem;
 }
 .bg {
-  background: #f8f8ff;
+  background: #efeff9;
 }
 .award-card {
   background-color: white;
@@ -332,7 +332,7 @@ p {
 .newsroom-container {
   text-align: center;
   padding: 100px 200px;
-  background: #f8f8ff;
+  background: #efeff9;
 }
 .newsroom {
   display: grid;
@@ -601,14 +601,45 @@ p {
         display: grid;
         gap: 80px;
         justify-content: center;
+        text-align: center;
       }
       .about-left {
         margin-top: -100px;
       }
   }
   @media only screen and (max-width: 767px) {
-    .banner{
-      
+    .footer-container{
+      grid-auto-flow: row;
+      gap: 40px;
+      justify-content: center;
+      padding: 100px;
+      text-align: center;
+      margin: auto;
+    }
+    .middle {
+      padding-left: 20px;
+    }
+    .footer-left img {
+      padding-left: 50px;
+    }
+    .newsroom {
+      grid-auto-flow: row;
+    }
+    .limit{
+      max-width: 60rem;
+    }
+    .newsroom-container{
+      padding: 50px 50px;
+    }
+    .concern {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .border-middle{
+      border: 0px;
+      padding-right: 0px;
     }
   }
   }
