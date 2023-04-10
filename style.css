@@ -733,6 +733,18 @@ p {
     .subscribe-form input::placeholder {
       text-align: center;
     }
+    .text-fix {
+      padding-left: 20px;
+    }
+    .award-img {
+      padding-left: 20px;
+    }
+    .award-card {
+      max-width: 66%;
+    }
+    .award-cards {
+      padding-top: 50px;
+    }
   }
   @media only screen and (max-width: 420px) {
     h3 {
